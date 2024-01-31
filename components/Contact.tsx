@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import AnimationDiv from "./animationDiv";
+import me from "@pub/me.jpg";
 
 const Contact = () => {
   return (
@@ -14,7 +15,7 @@ const Contact = () => {
             className="my-auto rounded-xl"
             width={500}
             height={720}
-            src={"./me.jpg"}
+            src={me}
             alt=""
           />
         </AnimationDiv>

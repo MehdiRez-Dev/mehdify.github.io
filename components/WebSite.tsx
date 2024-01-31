@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import AnimationDiv from "./animationDiv";
+import website from "@pub/website.png";
 
 const WebSite = () => {
   return (
@@ -12,7 +13,7 @@ const WebSite = () => {
         </AnimationDiv>
         <AnimationDiv orentaion="reverseLongY" delay={0.2}>
           <Image
-            src={"./website.png"}
+            src={website}
             className="rounded-xl"
             alt=""
             width={500}

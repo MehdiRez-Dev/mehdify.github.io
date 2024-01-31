@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import AnimationDiv from "./animationDiv";
-
+import coding from "@pub/coding.jpg";
 const About = () => {
   return (
     <div className={"flex w-full h-full bg-background tracking-widest"}>
@@ -13,7 +13,7 @@ const About = () => {
           <AnimationDiv orentaion="longX" delay={0.2}>
             <Image
               className="rounded-xl"
-              src={"./coding.jpg"}
+              src={coding}
               width={500}
               height={500}
               alt=""

@@ -4,6 +4,7 @@ import AnimationDiv from "./animationDiv";
 import Link from "next/link";
 import localFont from "next/font/local";
 import Image from "next/image";
+import home from "@pub/home.jpg";
 
 const bogart = localFont({
   src: "../public/fonts/bogart/Bogart-Regular-trial.ttf",
@@ -57,7 +58,7 @@ const Home = () => {
       </div>
       <div className="w-1/3 overflow-hidden">
         <div className="w-full h-full relative">
-          <Image src={"./home.jpg"} alt="" fill objectFit="cover" />
+          <Image src={home} alt="" fill objectFit="cover" />
         </div>
       </div>
     </div>

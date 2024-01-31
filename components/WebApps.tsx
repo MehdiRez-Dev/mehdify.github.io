@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import AnimationDiv from "./animationDiv";
+import webapp from "@pub/webApp.png";
 
 const WebApps = () => {
   return (
@@ -8,7 +9,7 @@ const WebApps = () => {
       <div className="flex-1 flex flex-col gap-24">
         <AnimationDiv>
           <Image
-            src={"./webApp.png"}
+            src={webapp}
             className="rounded-xl"
             alt=""
             width={500}

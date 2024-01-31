@@ -1,6 +1,22 @@
 import Image from "next/image";
 import React from "react";
 import AnimationDiv from "./animationDiv";
+import js from "@pub/icons/js.svg";
+import ts from "@pub/icons/ts.svg";
+import react from "@pub/icons/react.svg";
+import next from "@pub/icons/next.svg";
+import node from "@pub/icons/node.svg";
+import express from "@pub/icons/express.svg";
+import nest from "@pub/icons/nest.svg";
+import bootstrap from "@pub/icons/bootstrap.svg";
+import tailwind from "@pub/icons/tailwind.svg";
+import socket from "@pub/icons/socket.io.svg";
+import prisma from "@pub/icons/prisma.svg";
+import nx from "@pub/icons/nx.svg";
+import yarn from "@pub/icons/yarn.svg";
+import npm from "@pub/icons/npm.svg";
+import vite from "@pub/icons/vite.svg";
+import vs from "@pub/icons/vs.svg";
 
 const Expertise = () => {
   return (
@@ -21,28 +37,28 @@ const Expertise = () => {
                   className="rounded-xl"
                   width={256}
                   height={56}
-                  src={"/icons/js.svg"}
+                  src={js}
                   alt=""
                 />
                 <Image
                   className="rounded-xl"
                   width={256}
                   height={56}
-                  src={"/icons/ts.svg"}
+                  src={ts}
                   alt=""
                 />
                 <Image
                   className="rounded-xl"
                   width={171}
                   height={56}
-                  src={"/icons/react.svg"}
+                  src={react}
                   alt=""
                 />
                 <Image
                   className="rounded-xl"
                   width={155}
                   height={56}
-                  src={"/icons/next.svg"}
+                  src={next}
                   alt=""
                 />
               </div>
@@ -53,21 +69,21 @@ const Expertise = () => {
                   className="rounded-xl"
                   width={200}
                   height={56}
-                  src={"/icons/node.svg"}
+                  src={node}
                   alt=""
                 />
                 <Image
                   className="rounded-xl"
                   width={244}
                   height={56}
-                  src={"/icons/express.svg"}
+                  src={express}
                   alt=""
                 />
                 <Image
                   className="rounded-xl"
                   width={171}
                   height={56}
-                  src={"/icons/nest.svg"}
+                  src={nest}
                   alt=""
                 />
               </div>
@@ -78,14 +94,14 @@ const Expertise = () => {
                   className="rounded-xl"
                   width={262}
                   height={56}
-                  src={"/icons/bootstrap.svg"}
+                  src={bootstrap}
                   alt=""
                 />
                 <Image
                   className="rounded-xl"
                   width={276}
                   height={56}
-                  src={"/icons/tailwind.svg"}
+                  src={tailwind}
                   alt=""
                 />
               </div>
@@ -96,21 +112,21 @@ const Expertise = () => {
                   className="rounded-xl"
                   width={234}
                   height={56}
-                  src={"/icons/socket.io.svg"}
+                  src={socket}
                   alt=""
                 />
                 <Image
                   className="rounded-xl"
                   width={192}
                   height={56}
-                  src={"/icons/prisma.svg"}
+                  src={prisma}
                   alt=""
                 />
                 <Image
                   className="rounded-xl"
                   width={126}
                   height={56}
-                  src={"/icons/nx.svg"}
+                  src={nx}
                   alt=""
                 />
               </div>
@@ -121,21 +137,21 @@ const Expertise = () => {
                   className="rounded-xl"
                   width={161}
                   height={56}
-                  src={"/icons/yarn.svg"}
+                  src={yarn}
                   alt=""
                 />
                 <Image
                   className="rounded-xl"
                   width={146}
                   height={56}
-                  src={"/icons/npm.svg"}
+                  src={npm}
                   alt=""
                 />
                 <Image
                   className="rounded-xl"
                   width={151}
                   height={56}
-                  src={"/icons/vite.svg"}
+                  src={vite}
                   alt=""
                 />
               </div>
@@ -146,7 +162,7 @@ const Expertise = () => {
                   className="rounded-xl"
                   width={361}
                   height={56}
-                  src={"./icons/vs.svg"}
+                  src={vs}
                   alt=""
                 />
               </div>
