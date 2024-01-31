@@ -146,7 +146,7 @@ const Expertise = () => {
                   className="rounded-xl"
                   width={361}
                   height={56}
-                  src={"/icons/vs.svg"}
+                  src={"./icons/vs.svg"}
                   alt=""
                 />
               </div>

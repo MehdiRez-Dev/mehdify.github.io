@@ -8,7 +8,7 @@ const WebApps = () => {
       <div className="flex-1 flex flex-col gap-24">
         <AnimationDiv>
           <Image
-            src={"/webApp.png"}
+            src={"./webApp.png"}
             className="rounded-xl"
             alt=""
             width={500}

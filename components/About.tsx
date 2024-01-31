@@ -13,7 +13,7 @@ const About = () => {
           <AnimationDiv orentaion="longX" delay={0.2}>
             <Image
               className="rounded-xl"
-              src={"/coding.jpg"}
+              src={"./coding.jpg"}
               width={500}
               height={500}
               alt=""

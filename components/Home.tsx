@@ -57,7 +57,7 @@ const Home = () => {
       </div>
       <div className="w-1/3 overflow-hidden">
         <div className="w-full h-full relative">
-          <Image src={"/home.jpg"} alt="" fill objectFit="cover" />
+          <Image src={"./home.jpg"} alt="" fill objectFit="cover" />
         </div>
       </div>
     </div>

@@ -12,7 +12,7 @@ const WebSite = () => {
         </AnimationDiv>
         <AnimationDiv orentaion="reverseLongY" delay={0.2}>
           <Image
-            src={"/website.png"}
+            src={"./website.png"}
             className="rounded-xl"
             alt=""
             width={500}

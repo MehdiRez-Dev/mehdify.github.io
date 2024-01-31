@@ -47,7 +47,7 @@ const Background = () => {
         <AnimationDiv orentaion="reverseLongX" delay={0.15}>
           <Image
             className="rounded-xl"
-            src={"/writing.jpg"}
+            src={"./writing.jpg"}
             width={500}
             height={500}
             alt=""

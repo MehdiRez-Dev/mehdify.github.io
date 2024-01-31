@@ -14,7 +14,7 @@ const Contact = () => {
             className="my-auto rounded-xl"
             width={500}
             height={720}
-            src={"/me.jpg"}
+            src={"./me.jpg"}
             alt=""
           />
         </AnimationDiv>
