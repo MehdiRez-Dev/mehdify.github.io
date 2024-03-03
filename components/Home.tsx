@@ -49,7 +49,7 @@ const Home = () => {
               <Link
                 download
                 target="_blank"
-                href="/resume.pdf"
+                href="./resume.pdf"
                 className="border-b-2 border-gray-700 w-[120px] cursor-pointer inline-block"
               >
                 Resume
