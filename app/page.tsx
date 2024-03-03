@@ -50,23 +50,22 @@ export default function App() {
       </div>
     </main>
   );
-
-  function Container({
-    children,
-    paddingPage = true,
-    id,
-  }: {
-    children: ReactNode;
-    id?: string;
-    paddingPage?: boolean;
-  }) {
-    return (
-      <div
-        id={id}
-        className={cn("h-full min-h-full relative", paddingPage && "p-28")}
-      >
-        {children}
-      </div>
-    );
-  }
+}
+function Container({
+  children,
+  paddingPage = true,
+  id,
+}: {
+  children: ReactNode;
+  id?: string;
+  paddingPage?: boolean;
+}) {
+  return (
+    <div
+      id={id}
+      className={cn("h-full min-h-full relative", paddingPage && "p-28")}
+    >
+      {children}
+    </div>
+  );
 }

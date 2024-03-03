@@ -47,12 +47,22 @@ const Home = () => {
           <div className="w-1/2 text-center">
             <AnimationDiv delay={0.55}>
               <Link
+                download
+                target="_blank"
+                href="/resume.pdf"
+                className="border-b-2 border-gray-700 w-[120px] cursor-pointer inline-block"
+              >
+                Resume
+              </Link>
+            </AnimationDiv>
+            {/* <AnimationDiv delay={0.55}>
+              <Link
                 href="#Contact"
                 className="border-b-2 border-gray-700 w-[120px] cursor-pointer inline-block"
               >
                 email me
               </Link>
-            </AnimationDiv>
+            </AnimationDiv> */}
           </div>
         </div>
       </div>
